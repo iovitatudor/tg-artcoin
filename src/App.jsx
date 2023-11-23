@@ -2,7 +2,7 @@ import './App.scss';
 import Header from "./components/Header";
 import ServicesGet from "./components/ServicesGet";
 
-const tg = window.Telegram.WebApp
+// const tg = window.Telegram.WebApp
 
 function App() {
     return (
