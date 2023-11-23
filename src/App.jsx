@@ -9,9 +9,6 @@ function App() {
         <div className="App">
             <Header/>
             <ServicesGet/>
-            <div>Header</div>
-            <div>Content</div>
-            <div>Footer</div>
         </div>
     );
 }

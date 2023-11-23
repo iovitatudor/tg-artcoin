@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
 }
 
 .App {
@@ -10,6 +13,27 @@
   max-width: 450px;
   height: 100vh;
   padding: 0 15px;
+}
+
+.hint {
+  color: var(--tg-theme-hint-color);
+}
+
+.link {
+  color: var(--tg-theme-link-color);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.btn {
+  color: var(--tg-theme-button-text-color);
+  background-color: var(--tg-theme-button-color);
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin-top: 15px;
 }
 
 .header {
@@ -22,16 +46,30 @@
 }
 
 .services {
+  //border: 1px solid red;
+  border-radius: 20px;
+  margin: 15px 0;
+  padding: 15px;
+  text-align: center;
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 
   .service-item {
-    background-color: rgb(221, 26, 51);
-    border-color: rgb(221, 26, 51);
     padding: 5px;
     border-radius: 15px;
   }
 
   img {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 15px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 15px 0;
   }
 }
