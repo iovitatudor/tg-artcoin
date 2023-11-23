@@ -1,8 +1,8 @@
-import './App.css';
+import React from "react";
 
-function App() {
+const Header = () => {
     return (
-        <div className="App">
+        <div className="header">
             <div className="logo">
                 <svg width="40" height="60" viewBox="0 0 40 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -10,11 +10,8 @@ function App() {
                         fill="white"></path>
                 </svg>
             </div>
-            <div>Header</div>
-            <div>Content</div>
-            <div>Footer</div>
         </div>
     );
 }
 
-export default App;
+export default Header;
