@@ -12,7 +12,6 @@
   color: var(--tg-theme-text-color);
   max-width: 450px;
   min-height: 100vh;
-  padding: 0 15px;
 }
 
 .hint {
@@ -32,9 +31,9 @@
   padding: 10px 16px;
   border: none;
   outline: none;
-  border-radius: 13px;
+  border-radius: 10px;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   cursor: pointer;
 }
