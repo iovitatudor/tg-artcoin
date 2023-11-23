@@ -44,7 +44,8 @@
 }
 
 .header {
-  background-color: #000;
+  //background-color: #000;
+  background-color: var(--tg-theme-button-color);
   padding: 20px;
 }
 
