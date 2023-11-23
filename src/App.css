@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+.App {
     background-color: #000;
+    max-width: 450px;
+    height: 100vh;
 }
 
-.App {
-    width: 350px;
+.logo {
+    text-align: center;
 }
